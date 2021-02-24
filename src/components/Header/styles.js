@@ -54,6 +54,7 @@ export const Burger = styled.div`
   }
   padding: 1.25rem 1.25rem;
   display: none;
+  cursor: pointer;
 `;
 
 export const NotHidden = styled.div`
