@@ -50,10 +50,10 @@ const Styles = createGlobalStyle`
     a {
         text-decoration: none;
         outline: none;
-        color: #2E186A;
+        color: #7485ec ;
 
         :hover {
-            color: #2e186a;
+            color: #7485ec ;
         }
     }
     
@@ -76,7 +76,7 @@ const Styles = createGlobalStyle`
 
     .anticon,
     .ant-notification-notice-icon-success {
-        color: rgb(255,130,92);
+        color: rgb(116,133,236);
     }
 `;
 

@@ -64,12 +64,20 @@ export const NotHidden = styled.div`
   }
 `;
 
-export const Menu = styled.h5`
+export const Menu = styled.h2`
   font-size: 1.37rem;
   margin-top: -0.45rem;
   padding: 0 1.56rem 0 0;
   font-weight: 600;
   border-bottom: 5px solid #111b47;
+`;
+
+export const LogoText = styled.h5`
+  font-size: 1.37rem;
+  display:flex;
+  align-items:center;
+  padding-top:0.5rem;
+  margin-left:0.5rem;
 `;
 
 export const CustomNavLinkSmall = styled(NavLink)`
