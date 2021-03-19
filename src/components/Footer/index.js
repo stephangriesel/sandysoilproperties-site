@@ -33,7 +33,7 @@ const Footer = ({ t }) => {
       <Fade bottom>
         <S.Footer>
           <Container>
-            <Row type="flex" justify="space-between">
+            {/* <Row type="flex" justify="space-between">
               <Col lg={10} md={10} sm={12} xs={24}>
                 <S.Language>{t("Contact")}</S.Language>
                 <S.Large to="/">{t("Tell us everything")}</S.Large>
@@ -64,16 +64,16 @@ const Footer = ({ t }) => {
                   {t("Customer Support")}
                 </S.Large>
               </Col>
-            </Row>
+            </Row> */}
             <Row type="flex" justify="space-between">
               <Col lg={10} md={10} sm={12} xs={24}>
-                <S.Empty />
+                {/* <S.Empty /> */}
                 <S.Language>{t("ADDRESS")}</S.Language>
                 <S.Para>Dam straat 123</S.Para>
                 <S.Para>Amsterdam 1071AX</S.Para>
                 <S.Para>Netherlands</S.Para>
               </Col>
-              <Col lg={8} md={8} sm={12} xs={24}>
+              {/* <Col lg={8} md={8} sm={12} xs={24}>
                 <S.Title>{t("Company")}</S.Title>
                 <S.Large left="true" to="/">
                   {t("About")}
@@ -87,7 +87,7 @@ const Footer = ({ t }) => {
                 <S.Large left="true" to="/">
                   {t("Careers & Culture")}
                 </S.Large>
-              </Col>
+              </Col> */}
               <Col lg={6} md={6} sm={12} xs={24}>
                 <S.Select>
                   <S.Label htmlFor="select-lang">{t("Language")}</S.Label>
@@ -97,7 +97,7 @@ const Footer = ({ t }) => {
                     id="select-lang"
                   >
                     <option value="en">English</option>
-                    <option value="es">Español</option>
+                    <option value="es">Afrikaans</option>
                   </S.LangSelect>
                 </S.Select>
               </Col>
@@ -124,8 +124,8 @@ const Footer = ({ t }) => {
               </S.NavLink>
               <S.FooterContainer>
                 <SocialLink
-                  href="https://github.com/"
-                  src="github.svg"
+                  href="mailto:mail@sandysoil.properties"
+                  src="email.svg"
                 />
                 <SocialLink
                   href="https://twitter.com/"
@@ -135,10 +135,10 @@ const Footer = ({ t }) => {
                   href="https://www.linkedin.com/"
                   src="linkedin.svg"
                 />
-                <SocialLink
+                {/* <SocialLink
                   href="https://github.com/"
                   src="instagram.svg"
-                />
+                /> */}
                 {/* <SocialLink
                   href="https://medium.com/@lashakakabadze/"
                   src="medium.svg"

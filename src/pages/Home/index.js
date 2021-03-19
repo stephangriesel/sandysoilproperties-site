@@ -47,13 +47,13 @@ const Home = () => {
         id="mission"
       />
 
-      <ContentBlock
+      {/* <ContentBlock
         type="left"
         title={ProductContent.title}
         content={ProductContent.text}
         icon="bg-13.svg"
         id="product"
-      />
+      /> */}
       <ContactFrom
         title={ContactContent.title}
         content={ContactContent.text}
