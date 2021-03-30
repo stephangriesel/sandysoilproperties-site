@@ -7,6 +7,9 @@ export const LeftContentBlock = styled.section`
 
   @media only screen and (max-width: 768px) {
     padding: 4rem 0 4rem;
+    img {
+      width:100%;
+    }
   }
 `;
 
