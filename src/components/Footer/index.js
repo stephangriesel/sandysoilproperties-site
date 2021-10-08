@@ -124,7 +124,7 @@ const Footer = ({ t }) => {
               </S.NavLink>
               <S.FooterContainer>
                 <SocialLink
-                  href="mailto:mail@sandysoil.properties"
+                  href="mailto:johan@sandysoil.properties"
                   src="email.svg"
                 />
                 <SocialLink
