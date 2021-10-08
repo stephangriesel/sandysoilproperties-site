@@ -127,14 +127,14 @@ const Footer = ({ t }) => {
                   href="mailto:johan@sandysoil.properties"
                   src="email.svg"
                 />
-                <SocialLink
+                {/* <SocialLink
                   href="https://twitter.com/"
                   src="twitter.svg"
                 />
                 <SocialLink
                   href="https://www.linkedin.com/"
                   src="linkedin.svg"
-                />
+                /> */}
                 {/* <SocialLink
                   href="https://github.com/"
                   src="instagram.svg"
