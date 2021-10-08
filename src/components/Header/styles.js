@@ -73,7 +73,7 @@ export const Menu = styled.h2`
 `;
 
 export const LogoText = styled.h5`
-  font-size: 1.37rem;
+  font-size: 2.00rem;
   display:flex;
   align-items:center;
   padding-top:0.5rem;
