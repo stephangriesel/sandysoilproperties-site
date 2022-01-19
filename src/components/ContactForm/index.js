@@ -2,6 +2,7 @@ import { lazy } from "react";
 import { Row, Col } from "antd";
 import Zoom from "react-reveal/Zoom";
 import { withTranslation } from "react-i18next";
+import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 
 import useForm from "./useForm";
 import validate from "./validationRules";
@@ -13,7 +14,7 @@ const Input = lazy(() => import("../../common/Input"));
 const Button = lazy(() => import("../../common/Button"));
 const TextArea = lazy(() => import("../../common/TextArea"));
 
-const Contact = ({ title, content, id, t }) => {
+const Contact = ({ title, content, email, id, t }) => {
   const { values, errors, handleChange, handleSubmit } = useForm(validate);
 
   const ValidationType = ({ type }) => {
@@ -32,7 +33,21 @@ const Contact = ({ title, content, id, t }) => {
       <S.Contact>
         <Row type="flex" justify="space-between" align="middle">
           <Col lg={12} md={11} sm={24}>
-            <Block padding={true} title={title} content={content} />
+            <Block padding={true} title={title} content={content} />   
+            <S.MoreContact>
+                <S.FlexRow>
+                  <AiOutlineMail class="icon"/>
+                  <a href="info@sandysoil.properties.com">
+                    info@sandysoil.properties.com
+                  </a>
+                </S.FlexRow>
+                <S.FlexRow>
+                  <AiOutlinePhone class="icon" />
+                  <a href="tel:+27829205650">
+                    0829205650
+                  </a>
+                </S.FlexRow>
+            </S.MoreContact>          
           </Col>
           <Col lg={12} md={12} sm={24}>
             <S.FormGroup autoComplete="off" onSubmit={handleSubmit}>

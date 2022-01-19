@@ -41,3 +41,21 @@ export const ButtonContainer = styled.div`
     padding-top: 0.75rem;
   }
 `;
+
+export const MoreContact = styled.div`
+  display:flex;
+  flex-direction:column;
+  .icon {
+    font-size:2em;
+  }
+`
+
+export const FlexRow = styled.div`
+  display:flex;
+  flex-direction:row;
+  a {
+    padding-left:0.5em;
+    color:#0a1f55;
+    font-size:1.1em;
+  }
+`

@@ -55,7 +55,7 @@ const Header = ({ t }) => {
         <Row type="flex" justify="space-between" gutter={20}>
           <S.LogoContainer to="/" aria-label="homepage">
             <SvgIcon src="logo-final-340x250-option4.svg" />
-            <S.LogoText>Sandy Soil Properties</S.LogoText>
+            <S.LogoText>SANDY SOIL PROPERTIES</S.LogoText>
           </S.LogoContainer>
           <S.NotHidden>
             <MenuItem />
