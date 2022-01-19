@@ -1,6 +1,7 @@
 import { lazy } from "react";
 import { Row, Col } from "antd";
 import Zoom from "react-reveal/Zoom";
+import Slide from "react-reveal/Slide";
 import { withTranslation } from "react-i18next";
 import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 
@@ -35,9 +36,10 @@ const Contact = ({ title, content, email, id, t }) => {
           <Col lg={12} md={11} sm={24}>
             <Block padding={true} title={title} content={content} />   
             <S.MoreContact>
+              <Slide left>
                 <S.FlexRow>
                   <AiOutlineMail class="icon"/>
-                  <a href="info@sandysoil.properties.com">
+                  <a href="mailto:info@sandysoil.properties.com">
                     info@sandysoil.properties.com
                   </a>
                 </S.FlexRow>
@@ -47,6 +49,7 @@ const Contact = ({ title, content, email, id, t }) => {
                     0829205650
                   </a>
                 </S.FlexRow>
+                </Slide>
             </S.MoreContact>          
           </Col>
           <Col lg={12} md={12} sm={24}>
