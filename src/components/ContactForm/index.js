@@ -39,8 +39,8 @@ const Contact = ({ title, content, email, id, t }) => {
               <Slide left>
                 <S.FlexRow>
                   <AiOutlineMail class="icon"/>
-                  <a href="mailto:info@sandysoil.properties">
-                    info@sandysoil.properties
+                  <a href="mailto:johan@sandysoil.properties">
+                    johan@sandysoil.properties
                   </a>
                 </S.FlexRow>
                 <S.FlexRow>
